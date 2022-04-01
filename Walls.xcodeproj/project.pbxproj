@@ -8,25 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		160BCEF224F2347500F6405F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160BCEF124F2347500F6405F /* AppDelegate.swift */; };
-		160BCEF424F2347500F6405F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 160BCEF324F2347500F6405F /* GameScene.sks */; };
-		160BCEF624F2347500F6405F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 160BCEF524F2347500F6405F /* Actions.sks */; };
 		160BCEF824F2347500F6405F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160BCEF724F2347500F6405F /* GameScene.swift */; };
 		160BCEFA24F2347500F6405F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160BCEF924F2347500F6405F /* ViewController.swift */; };
 		160BCEFC24F2347700F6405F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160BCEFB24F2347700F6405F /* Assets.xcassets */; };
 		160BCEFF24F2347700F6405F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160BCEFD24F2347700F6405F /* Main.storyboard */; };
+		160BCF0E24F2354100F6405F /* EmptyTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 160BCF0824F2354100F6405F /* EmptyTile.png */; };
+		160BCF0F24F2354100F6405F /* GoldPiece.png in Resources */ = {isa = PBXBuildFile; fileRef = 160BCF0924F2354100F6405F /* GoldPiece.png */; };
+		160BCF1024F2354100F6405F /* GoldWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 160BCF0A24F2354100F6405F /* GoldWall.png */; };
+		160BCF1124F2354100F6405F /* MoveTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 160BCF0B24F2354100F6405F /* MoveTile.png */; };
+		160BCF1224F2354100F6405F /* SilverPiece.png in Resources */ = {isa = PBXBuildFile; fileRef = 160BCF0C24F2354100F6405F /* SilverPiece.png */; };
+		160BCF1324F2354100F6405F /* SilverWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 160BCF0D24F2354100F6405F /* SilverWall.png */; };
+		161091BB24FDF8D500B959EF /* Curtain.png in Resources */ = {isa = PBXBuildFile; fileRef = 161091BA24FDF8D500B959EF /* Curtain.png */; };
+		161091BD24FDFDBB00B959EF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 161091BC24FDFDBB00B959EF /* GameScene.sks */; };
+		16B7E22E24F65381003FD874 /* VoidTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B7E22D24F65381003FD874 /* VoidTile.png */; };
+		16E2A248250E1416004337BC /* GameModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2A247250E1416004337BC /* GameModeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		160BCEEE24F2347500F6405F /* Walls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		160BCEF124F2347500F6405F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		160BCEF324F2347500F6405F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		160BCEF524F2347500F6405F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		160BCEF724F2347500F6405F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		160BCEF924F2347500F6405F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		160BCEFB24F2347700F6405F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		160BCEFE24F2347700F6405F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		160BCF0024F2347700F6405F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		160BCF0124F2347700F6405F /* Walls.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Walls.entitlements; sourceTree = "<group>"; };
+		160BCF0824F2354100F6405F /* EmptyTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmptyTile.png; sourceTree = "<group>"; };
+		160BCF0924F2354100F6405F /* GoldPiece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoldPiece.png; sourceTree = "<group>"; };
+		160BCF0A24F2354100F6405F /* GoldWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoldWall.png; sourceTree = "<group>"; };
+		160BCF0B24F2354100F6405F /* MoveTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoveTile.png; sourceTree = "<group>"; };
+		160BCF0C24F2354100F6405F /* SilverPiece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SilverPiece.png; sourceTree = "<group>"; };
+		160BCF0D24F2354100F6405F /* SilverWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SilverWall.png; sourceTree = "<group>"; };
+		161091BA24FDF8D500B959EF /* Curtain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Curtain.png; sourceTree = "<group>"; };
+		161091BC24FDFDBB00B959EF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		16B7E22D24F65381003FD874 /* VoidTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VoidTile.png; sourceTree = "<group>"; };
+		16E2A247250E1416004337BC /* GameModeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,16 +76,40 @@
 			isa = PBXGroup;
 			children = (
 				160BCEF124F2347500F6405F /* AppDelegate.swift */,
-				160BCEF324F2347500F6405F /* GameScene.sks */,
-				160BCEF524F2347500F6405F /* Actions.sks */,
+				161091BC24FDFDBB00B959EF /* GameScene.sks */,
+				16E2A249250E1771004337BC /* Test Folder */,
 				160BCEF724F2347500F6405F /* GameScene.swift */,
 				160BCEF924F2347500F6405F /* ViewController.swift */,
 				160BCEFB24F2347700F6405F /* Assets.xcassets */,
+				160BCF0724F2354100F6405F /* Walls Assets */,
 				160BCEFD24F2347700F6405F /* Main.storyboard */,
 				160BCF0024F2347700F6405F /* Info.plist */,
 				160BCF0124F2347700F6405F /* Walls.entitlements */,
 			);
 			path = Walls;
+			sourceTree = "<group>";
+		};
+		160BCF0724F2354100F6405F /* Walls Assets */ = {
+			isa = PBXGroup;
+			children = (
+				160BCF0824F2354100F6405F /* EmptyTile.png */,
+				160BCF0924F2354100F6405F /* GoldPiece.png */,
+				160BCF0A24F2354100F6405F /* GoldWall.png */,
+				160BCF0B24F2354100F6405F /* MoveTile.png */,
+				160BCF0C24F2354100F6405F /* SilverPiece.png */,
+				160BCF0D24F2354100F6405F /* SilverWall.png */,
+				16B7E22D24F65381003FD874 /* VoidTile.png */,
+				161091BA24FDF8D500B959EF /* Curtain.png */,
+			);
+			path = "Walls Assets";
+			sourceTree = "<group>";
+		};
+		16E2A249250E1771004337BC /* Test Folder */ = {
+			isa = PBXGroup;
+			children = (
+				16E2A247250E1416004337BC /* GameModeButton.swift */,
+			);
+			path = "Test Folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,10 +169,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				160BCEF424F2347500F6405F /* GameScene.sks in Resources */,
+				160BCF0F24F2354100F6405F /* GoldPiece.png in Resources */,
+				160BCF0E24F2354100F6405F /* EmptyTile.png in Resources */,
 				160BCEFC24F2347700F6405F /* Assets.xcassets in Resources */,
-				160BCEF624F2347500F6405F /* Actions.sks in Resources */,
+				161091BD24FDFDBB00B959EF /* GameScene.sks in Resources */,
+				160BCF1324F2354100F6405F /* SilverWall.png in Resources */,
+				161091BB24FDF8D500B959EF /* Curtain.png in Resources */,
+				160BCF1124F2354100F6405F /* MoveTile.png in Resources */,
+				160BCF1224F2354100F6405F /* SilverPiece.png in Resources */,
+				16B7E22E24F65381003FD874 /* VoidTile.png in Resources */,
 				160BCEFF24F2347700F6405F /* Main.storyboard in Resources */,
+				160BCF1024F2354100F6405F /* GoldWall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +192,7 @@
 			files = (
 				160BCEFA24F2347500F6405F /* ViewController.swift in Sources */,
 				160BCEF824F2347500F6405F /* GameScene.swift in Sources */,
+				16E2A248250E1416004337BC /* GameModeButton.swift in Sources */,
 				160BCEF224F2347500F6405F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

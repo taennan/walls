@@ -1,11 +1,27 @@
 
-# Note to Self
+# Walls
 
-This was my very first major project
+A simple two player board game where the first to the other side wins
 
-It was done at a time when I had no idea what classes were and only discovered at the very end that you could split code into different files
+This was one of my very early projects, looking at the codebase will tell you just how early
 
-This project contains many noobish mistakes, but I keep them because I like to laugh at them
+(I don't know why, but it's still one of my favourites)
 
-(It's still one of my favourites though)
+# How to Play
 
+- Players move one piece each turn
+
+- Pieces can move by one space horizontally or vertically into empty tiles
+
+- Lining up two or more pieces horizontally or vertically over any distance will create a wall
+
+- If enemy pieces move into or are caught within a newly created wall, they cannot be moved
+
+- Friendly pieces can move through your own walls without penalty
+
+- If a player moves his/her piece to the other side of the board, they win
+
+# Final Notes
+
+There are very many noobish mistakes in this project, none of which actually affect
+the playability of the game. Therefore, they will not be fixed
